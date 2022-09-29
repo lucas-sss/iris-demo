@@ -34,7 +34,8 @@ build/
 
 
 .DS_Store
-uploads/
+/uploads/
+access.log
 
 iris-demo
 iris-demo.exe
