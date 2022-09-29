@@ -1,0 +1,255 @@
+{
+  "timestamp": "2022-09-21 19:56:35",
+  "latency": 1419100,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-21 19:56:56",
+  "latency": 996700,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:05:34",
+  "latency": 1815100,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:06:19",
+  "latency": 1405700,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:10:02",
+  "latency": 2000600,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:12:44",
+  "latency": 830400,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:16:53",
+  "latency": 1493800,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:17:36",
+  "latency": 514700,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:41:21",
+  "latency": 2305000,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:42:00",
+  "latency": 1372300,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:44:26",
+  "latency": 512000,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "request": "----------------------------478245778313194039750112\r\nContent-Disposition: form-data; name=\"file\"; filename=\"elk vpn账号.txt\"; filename*=UTF-8''elk%20vpn%E8%B4%A6%E5%8F%B7.txt\r\nContent-Type: text/plain\r\n\r\nliuwei\r\nflk601\r\n----------------------------478245778313194039750112--\r\n",
+  "bytes_received": 279,
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2022-09-22 12:45:15",
+  "latency": 1667800,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:45:52",
+  "latency": 1366600,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:45:58",
+  "latency": 1268900,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:46:00",
+  "latency": 1181200,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:46:01",
+  "latency": 1129000,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:46:01",
+  "latency": 436800,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:46:01",
+  "latency": 1010100,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:46:32",
+  "latency": 1081600,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:47:22",
+  "latency": 3802600,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:48:08",
+  "latency": 784200,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:48:35",
+  "latency": 1552200,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:49:36",
+  "latency": 1576700,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+{
+  "timestamp": "2022-09-22 12:50:08",
+  "latency": 1321400,
+  "code": 200,
+  "method": "POST",
+  "path": "/uploads",
+  "ip": "127.0.0.1",
+  "bytes_sent": 33
+}
+2022-09-29 12:55:44|791.7µs|200|GET|/ping|127.0.0.1|0 B|19 B||
+2022-09-29 12:55:44|0s|404|GET|/favicon.ico|127.0.0.1|0 B|9 B||
+2022-09-29 12:58:17|0s|404|GET|/user/123|127.0.0.1|0 B|9 B||
+2022-09-29 13:01:12|1.6077ms|200|GET|/user/123|127.0.0.1|id=123|0 B|12 B||
+2022-09-29 17:48:56|400.4µs|404|POST|/path1/post|127.0.0.1|id=11,22|17 B|9 B|age=24&name=lucas|
+2022-09-29 17:49:08|0s|404|POST|/path1/path1/post|127.0.0.1|id=11,22|17 B|9 B|age=24&name=lucas|
+2022-09-29 17:49:46|195.7µs|404|POST|/path1/post|127.0.0.1|id=11,22|17 B|9 B|age=24&name=lucas|
+2022-09-29 17:49:56|0s|404|POST|/uploads|127.0.0.1|279 B|9 B|----------------------------168238053897815500038719
+Content-Disposition: form-data; name="file"; filename="elk vpn账号.txt"; filename*=UTF-8''elk%20vpn%E8%B4%A6%E5%8F%B7.txt
+Content-Type: text/plain
+
+liuwei
+flk601
+----------------------------168238053897815500038719--
+|
+2022-09-29 17:51:03|419.6µs|404|POST|/uploads|127.0.0.1|279 B|9 B|----------------------------775885706944081490574500
+Content-Disposition: form-data; name="file"; filename="elk vpn账号.txt"; filename*=UTF-8''elk%20vpn%E8%B4%A6%E5%8F%B7.txt
+Content-Type: text/plain
+
+liuwei
+flk601
+----------------------------775885706944081490574500--
+|
+2022-09-29 17:51:11|0s|404|POST|/path1/post|127.0.0.1|id=11,22|17 B|9 B|age=24&name=lucas|
+2022-09-29 17:51:23|0s|404|GET|/user/123|127.0.0.1|0 B|9 B||
+2022-09-29 17:51:25|0s|404|GET|/user/123|127.0.0.1|0 B|9 B||
+2022-09-29 17:51:26|0s|404|GET|/user/123|127.0.0.1|0 B|9 B||
+2022-09-29 17:51:26|0s|404|GET|/user/123|127.0.0.1|0 B|9 B||
+2022-09-29 17:51:27|0s|404|GET|/user/123|127.0.0.1|0 B|9 B||
+2022-09-29 17:51:27|977µs|404|GET|/user/123|127.0.0.1|0 B|9 B||
+2022-09-29 17:51:27|0s|404|GET|/user/123|127.0.0.1|0 B|9 B||
+2022-09-29 17:51:27|232µs|404|GET|/user/123|127.0.0.1|0 B|9 B||
+2022-09-29 17:51:27|0s|404|GET|/user/123|127.0.0.1|0 B|9 B||
+2022-09-29 17:51:28|485.4µs|404|GET|/user/123|127.0.0.1|0 B|9 B||
+2022-09-29 18:00:15|2.1844ms|200|POST|/path1/post|127.0.0.1|id=11,22|0 B|52 B||
+2022-09-29 18:02:02|893.7µs|404|POST|/path1/post|127.0.0.1|id=11,22|17 B|9 B|age=24&name=lucas|
+2022-09-29 18:02:13|1.5836ms|200|POST|/path1/path1/post|127.0.0.1|id=11,22|0 B|52 B||
