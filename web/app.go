@@ -2,19 +2,52 @@ package web
 
 import (
 	"fmt"
+	"strings"
 
+	"github.com/iris-contrib/middleware/jwt"
 	"github.com/kataras/iris/v12"
 )
 
 const maxSize = 8 * iris.MB
 
 func RegisterRoute(app *iris.Application) {
+
+	//使用jwt
+	j := jwt.New(jwt.Config{
+		// Extract by "token" url parameter.
+		Extractor: func(ctx iris.Context) (string, error) {
+			authHeader := ctx.GetHeader("Authorization")
+			if authHeader == "" {
+				return "", nil // No error, just no token
+			}
+			// TODO: Make this a bit more robust, parsing-wise
+			authHeaderParts := strings.Split(authHeader, " ")
+			if len(authHeaderParts) != 2 || strings.ToLower(authHeaderParts[0]) != "bearer" {
+				return "", fmt.Errorf("authorization header format must be Bearer {token}")
+			}
+			return authHeaderParts[1], nil
+		},
+
+		ValidationKeyGetter: func(token *jwt.Token) (interface{}, error) {
+			return []byte("My Secret"), nil
+		},
+		SigningMethod: jwt.SigningMethodHS256,
+	})
+
 	rootPath := app.Party("/")
-	rootPath.Use(func(ctx iris.Context) {
-		fmt.Printf("/ request\n")
+	rootPath.Use(j.Serve)
+
+	app.Get("/login", func(ctx iris.Context) {
+		token := jwt.NewTokenWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
+			"foo": "bar",
+		})
+		// Sign and get the complete encoded token as a string using the secret
+		tokenString, _ := token.SignedString([]byte("My Secret"))
+		ctx.JSON(iris.Map{"token": tokenString})
 	})
 
 	app.Handle("GET", "/ping", func(ctx iris.Context) {
+		ctx.Application().Logger().Infof("ping request")
 		ctx.JSON(iris.Map{"message": "pong"})
 	})
 
@@ -25,7 +58,7 @@ func RegisterRoute(app *iris.Application) {
 
 	path1 := app.Party("/path1")
 	path1.UseRouter(func(ctx iris.Context) {
-		fmt.Printf("path1 request\n")
+		ctx.Application().Logger().Infof("path1 request")
 		ctx.Next()
 	})
 
