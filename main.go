@@ -36,25 +36,26 @@ func main() {
 		app.Shutdown(ctx)
 	})
 	//注册全局中间件
-	app.Use(myMiddleware)
+	app.Use(globalMiddleware)
 
+	//设置路由规则，强制路由handlerx之星完成后执行ctx.Next()
 	app.SetExecutionRules(iris.ExecutionRules{
 		Done: iris.ExecutionOptions{Force: true},
 	})
 
+	//注册业务路由
 	web.RegisterRoute(app)
 
+	//生成iris配置, 并通过配置启动
 	config := iris.WithConfiguration(iris.Configuration{
 		DisableStartupLog: false,
 		Charset:           "UTF-8",
 	})
-
 	app.Run(iris.Addr(":8088"), config)
-	// app.Listen(":8088")
 }
 
 // 自定义中间件
-func myMiddleware(ctx iris.Context) {
-	ctx.Application().Logger().Infof("Runs before %s", ctx.Path())
+func globalMiddleware(ctx iris.Context) {
+	ctx.Application().Logger().Infof("globalMiddleware -> Runs before: %s", ctx.Path())
 	ctx.Next()
 }
